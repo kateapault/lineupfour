@@ -1,0 +1,54 @@
+
+
+h1 {
+    width: 100%;
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.container {
+    margin-left: calc((100vw - 84vh)/2);
+    width: 84vh;
+    height: 84vh;
+    display: grid;
+    grid-template-rows: repeat(7,12vh);
+    grid-template-columns: repeat(7,12vh);
+    background-color: yellowgreen;
+    box-shadow: 8px 8px 5px grey;
+}
+
+.hole {
+    justify-self: center;
+    align-self: center;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 4vh;
+    background-color: white;
+    color: white;
+    text-align: center;
+    line-height: 8vh;
+    box-shadow: inset 2px 2px 5px grey;
+}
+
+.hole:hover {
+    color:black;
+    font-style: italic;
+}
+
+.red {
+    justify-self: center;
+    align-self: center;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 4vh;
+    background-color: red;  
+}
+
+.black {
+    justify-self: center;
+    align-self: center;
+    width: 8vh;
+    height: 8vh;
+    border-radius: 4vh;
+    background-color: black;  
+}
